@@ -111,7 +111,15 @@ window.addEventListener('scroll', function () {
   activateMenuAtCurrentSection()
 })
 
+<<<<<<< HEAD
+function addDarkmodeWidget() {
+  new Darkmode().showWidget();
+}
+window.addEventListener('load', addDarkmodeWidget);
+
+=======
 window.addEventListener('active', function () {
   
 })
+>>>>>>> 0764c302a06ec671dcede23c712b8859f6324356
 
