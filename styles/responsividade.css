@@ -1,0 +1,486 @@
+/*========= MEDIA QUERIES =========*/
+/* extra large devices: 1200 > */
+@media (min-width: 1280px) and (max-width:1680px) {
+    /* reusable classes */
+    .container {
+      max-width: 1220px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    img > .img-responsividade{
+      display: none;
+    }
+
+    img > .icon-respondividade{
+      display: none;
+    }
+   
+    .section {
+      padding: 10rem 0;
+    }
+  
+    .section header,
+    #testimonials header {
+      max-width: 32rem;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .button {
+      height: 3.125rem;
+    }
+  
+    /* navigation */
+
+    nav .menu {
+      opacity: 1;
+      visibility: visible;
+      top: 0;
+
+    }
+  
+    nav .menu ul {
+      display: flex;
+      gap: 2rem;
+    }
+  
+    nav .menu ul li a.title {
+      font: 400 1rem var(--body-font);
+      -webkit-font-smoothing: antialiased;
+    }
+  
+    nav .menu ul li a.title.active {
+      font-weight: bold;
+      -webkit-font-smoothing: auto;
+      background: linear-gradient(60deg, rgb(235, 243, 247) 50%, rgb(227, 245, 245) 100%);
+
+    }
+  
+    nav .icon-menu {
+      display: none;
+    }
+  
+    /* layout */
+    main {
+      margin-top: var(--header-height);
+    }
+  
+    /* home */
+    #home .container {
+      grid-auto-flow: column;
+      justify-content: space-between;
+      margin: 0 auto;
+    }
+  
+    #home .image {
+      order: 1;
+    }
+  
+    #home .text {
+      order: 0;
+      max-width: 24rem;
+      text-align: left;
+    }
+  
+    /* about */
+    #about .container {
+      margin: 0 auto;
+      grid-auto-flow: column;
+    }
+  
+    /* services */
+    .cards {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  
+    .card {
+      padding-left: 3rem;
+      padding-right: 3rem;
+    }
+  
+    /* testimonials */
+    #testimonials .container {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    /* contact */
+    #contact .container {
+      grid-auto-flow: column;
+      align-items: center;
+    }
+  
+    #contact .text {
+      max-width: 25rem;
+    }
+  
+    /* footer */
+    footer.section {
+      padding: 3.75rem 0;
+    }
+  
+    footer .container {
+      grid-auto-flow: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    footer .logo {
+      font-size: 2.25rem;
+    }
+  }
+@media (max-width: 1280px) and (orientation: landscape)   {
+    /* reusable classes */
+    .container {
+      max-width: 1000px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    img > .img-responsividade{
+      display: none;
+    }
+
+    img > .icon-respondividade{
+      display: none;
+    }
+   
+    .section {
+      padding: 10rem 0;
+    }
+  
+    .section header,
+    #testimonials header {
+      max-width: 32rem;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .button {
+      height: 3.125rem;
+    }
+  
+    /* navigation */
+
+    nav .menu {
+      opacity: 1;
+      visibility: visible;
+      top: 0;
+
+    }
+  
+    nav .menu ul {
+      display: flex;
+      gap: 2rem;
+    }
+  
+    nav .menu ul li a.title {
+      font: 400 1rem var(--body-font);
+      -webkit-font-smoothing: antialiased;
+    }
+  
+    nav .menu ul li a.title.active {
+      font-weight: bold;
+      -webkit-font-smoothing: auto;
+      background: linear-gradient(60deg, rgb(235, 243, 247) 50%, rgb(227, 245, 245) 100%);
+
+    }
+  
+    nav .icon-menu {
+      display: none;
+    }
+  
+    /* layout */
+    main {
+      margin-top: var(--header-height);
+    }
+  
+    /* home */
+    #home .container {
+      grid-auto-flow: column;
+      justify-content: space-between;
+      margin: 0 auto;
+    }
+  
+    #home .image {
+      order: 1;
+    }
+  
+    #home .text {
+      order: 0;
+      max-width: 24rem;
+      text-align: left;
+    }
+  
+    /* about */
+    #about .container {
+      margin: 0 auto;
+      grid-auto-flow: column;
+    }
+  
+    /* services */
+    .cards {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  
+    .card {
+      padding-left: 3rem;
+      padding-right: 3rem;
+    }
+  
+    /* testimonials */
+    #testimonials .container {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    /* contact */
+    #contact .container {
+      grid-auto-flow: column;
+      align-items: center;
+    }
+  
+    #contact .text {
+      max-width: 25rem;
+    }
+  
+    /* footer */
+    footer.section {
+      padding: 3.75rem 0;
+    }
+  
+    footer .container {
+      grid-auto-flow: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    footer .logo {
+      font-size: 2.25rem;
+    }
+  }
+
+
+
+@media (max-width: 800px) and (orientation: landscape) {
+    /* reusable classes */
+    .container {
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /*.logo{
+      margin-left: -5rem;
+    }*/
+
+    img > .img-responsividade{
+      display: none;
+    }
+  
+
+    img > .icon-respondividade{
+      display: none;
+    }
+    .button {
+      height: 3.125rem;
+    }
+  
+    /* navigation */
+    nav .menu {
+      opacity: 1;
+      visibility: visible;
+      top: 0;
+    }
+  
+    nav .menu ul {
+      display: flex;
+      gap: 2rem;
+      margin-right: 4rem;
+
+    }
+  
+    nav .menu ul li a.title {
+      font: 300 1rem var(--body-font);
+      -webkit-font-smoothing: antialiased;
+    }
+  
+    nav .menu ul li a.title.active {
+      font-weight: bold;
+      -webkit-font-smoothing: auto;
+    }
+  
+    nav .icon-menu {
+      display: none;
+    }
+  
+    /* layout */
+    main {
+      margin-top: var(--header-height);
+    }
+  
+    /* home */
+    #home .container {
+      
+      margin: -5rem auto;
+    }
+  
+    #home .image {
+      order: 1;
+    }
+  
+    #home .text {
+      order: 0;
+      max-width: 15rem;
+      text-align: left;
+    }
+
+    /*IMAGE*/ 
+    
+    .img2{
+      height: 12rem;
+      width: 12rem;
+      
+       
+    }
+    .iconbig{
+       height: 12rem;
+        width: 12rem;
+    }
+  
+    #home .image img {
+      position: relative;
+      left: 12rem;
+      top: -19rem ;
+    }
+    
+    #home .image .iconbig {
+      position: relative;
+      top: -18.25rem;
+      left: 25rem;
+    }
+    /*NOME CONTROLTECH*/
+    .message{
+      font-size:30px;
+
+      width: 225px;
+      font-weight: 700;
+
+      margin-left: 22rem;
+      margin-top: -18rem;
+    }
+  /*BOTÃO DA HOME*/
+    .btn:link,
+    .btn:visited {
+      padding: 10px 20px;
+    }
+
+  /*TEXTO ABOUT*/
+    .text > .title2{
+    
+    
+     margin-left: 10rem;
+     margin-top: -18rem;
+    }
+
+    .text > .p{
+      margin-left: 10rem;
+    }
+    #about .container {
+      margin: 0 auto;
+      margin-left: 10rem;
+    }
+    .title2 {
+     left: 3rem;
+      font-size: 25px;
+    }
+    .p{
+    
+     text-align: justify;
+     font-size: 15px;
+    
+    
+    }
+  /*IMAGE ABOUT*/
+    .img-respo{
+      width: 12rem;
+      height: 12rem;
+      top: 2rem;
+      left: 2rem;
+
+    }
+
+  /*BOTÃO ABOUT*/
+    .button2{
+      margin-top: 3rem;
+      margin-left: 9rem;
+    }
+   /*LINHA DE DIVISÃO ENTRE O SERVICE E O SOBRE*/
+    .divider-2{
+      margin-top: 12rem;
+    }
+  /*PAGINA SERVICE*/
+
+    .title-service{
+      text-align: center;
+      font-size: 25px;
+    
+    }
+    .section .subtitle{
+      text-align: justify;
+    }
+
+    
+    /*CARDS*/
+    .cards-respo {
+      grid-template-columns:  1fr 1fr 1fr;
+     }
+      .card-respo {
+        padding-left: 1rem;
+        padding-right: 3rem;
+     }
+        
+          /* contact */
+      #contact .container {
+          grid-auto-flow: column;
+          align-items: center;
+      }
+        
+      #contact .text {
+            max-width: 15rem;
+      }
+      #contact  .title{
+        font-size: 25px;
+      }
+
+      #contact p{
+        font-size: 15px;
+      } 
+      #contact ul.grid {
+        margin-left: 4rem;
+      }
+      
+      /*footer*/
+      footer.section {
+        padding: 3.75rem 0;
+      }
+      footer .container {
+        grid-auto-flow: column;
+        align-items: center;
+        justify-content: space-between;
+      }
+    
+      footer .logo {
+        font-size: 1.75rem;
+      }
+}
+  /* large devices: 992 > */
+@media (min-width: 992px) {
+    :root {
+      --title-font-size: 2.25rem;
+      --subtitle-font-size: 1.125rem;
+    }
+  }

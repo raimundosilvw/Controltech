@@ -1,0 +1,370 @@
+ /* IPHONE 6/7/8 PLUS */
+ @media(max-width: 414px ) and (max-width: 420px) {
+  /*HOME*/
+  #home .img2 .iconbig {
+   display: grid;
+   grid-template-columns: 2fr;
+ }
+
+ .iconbig, .img2{
+   display: none;
+ }
+
+ .img-responsividade{
+      display: flex;
+      height: 10rem;
+      width: 10rem;
+
+      margin-left: 8rem;
+      margin-top: -3rem;
+ }
+
+  .icon-responsividade{
+      display: flex;
+      height: 10.3rem;
+      width: 10.3rem;
+      margin-left: 8.5rem;
+      margin-top: -11.5rem;
+  }
+  .message{
+      font-size:30px;
+
+      width: 225px;
+      font-weight: 700;
+
+      margin-left: 5rem;
+      margin-top: -2rem;
+  }
+
+  .btn{
+      left: 3.75rem;
+    }
+ 
+    @keyframes moveInBottom {
+     0% {
+         opacity: 0;
+         transform: translateY(30px);
+     }
+ 
+     100% {
+         opacity: 1;
+         transform: translateY(0px);
+     }
+   }
+      /*TITULO E DIVISÃO*/
+      .title{
+          font-size: 1.5rem;
+  
+      }
+      .divider-1{
+          margin-top: 9rem;
+      }
+  
+      /*SOBRE NÓS*/
+  
+      .img-respo{
+          width: 8rem;
+          height: 8rem;
+  
+          margin-left: 9rem;
+  
+          margin-top: -4rem;
+      }
+      
+      .title2 {
+          margin-left: 7.5rem;
+      }
+      .p{
+          text-align: justify;
+      }
+      .button2{
+          margin-top: 3rem;
+      }
+  
+      /*SERVIÇOS*/
+      .title-service{
+      margin-left: 7.5rem;
+      }
+      .section .subtitle{
+      text-align: justify;
+      }
+    
+}
+
+ /*A21S / */
+ @media(max-width: 412px ) and (max-width: 413px) {
+    /*HOME*/
+    #home .img2 .iconbig {
+     display: grid;
+     grid-template-columns: 2fr;
+   }
+
+   .iconbig, .img2{
+     display: none;
+   }
+
+   .img-responsividade{
+        display: flex;
+        height: 10rem;
+        width: 10rem;
+
+        margin-left: 8rem;
+        margin-top: -3rem;
+   }
+
+    .icon-responsividade{
+        display: flex;
+        height: 10.3rem;
+        width: 10.3rem;
+        margin-left: 8.5rem;
+        margin-top: -11.5rem;
+    }
+    .message{
+        font-size:30px;
+
+        width: 225px;
+        font-weight: 700;
+
+        margin-left: 5rem;
+        margin-top: -2rem;
+    }
+
+    .btn{
+        left: 3.75rem;
+      }
+   
+      @keyframes moveInBottom {
+       0% {
+           opacity: 0;
+           transform: translateY(30px);
+       }
+   
+       100% {
+           opacity: 1;
+           transform: translateY(0px);
+       }
+     }
+        /*TITULO E DIVISÃO*/
+        .title{
+            font-size: 1.5rem;
+    
+        }
+        .divider-1{
+            margin-top: 9rem;
+        }
+    
+        /*SOBRE NÓS*/
+    
+        .img-respo{
+            width: 8rem;
+            height: 8rem;
+    
+            margin-left: 9rem;
+    
+            margin-top: -4rem;
+        }
+        
+        .title2 {
+            margin-left: 7.5rem;
+        }
+        .p{
+            text-align: justify;
+        }
+        .button2{
+            margin-top: 3rem;
+        }
+    
+        /*SERVIÇOS*/
+        .title-service{
+        margin-left: 7.5rem;
+        }
+        .section .subtitle{
+        text-align: justify;
+        }
+      
+}
+/*IPHONE 12PRO*/
+@media(max-width: 390px) and (max-width: 410px)  {
+  /*HOME*/
+  #home .img2 .iconbig {
+    display: grid;
+    grid-template-columns: 2fr;
+  }
+  .iconbig, .img2{
+    display: none;
+  }
+  
+  .dark-mode > .toggle{
+    display: flex;
+  }
+
+  .img-responsividade{
+    display: flex;
+   
+    height: 10rem;
+    width: 10rem;
+    margin-left: 8rem;
+    margin-top: -3rem;
+  }
+  .icon-responsividade{
+    display: flex;
+    height: 10.3rem;
+    width: 10.3rem;
+    margin-left: 8.5rem;
+    margin-top: -11.5rem;
+  }
+  .message{
+    font-size:30px;
+
+    width: 225px;
+    font-weight: 700;
+
+    margin-left: 5rem;
+    margin-top: -2rem;
+  }
+  /*BOTÕES HOME */
+ .btn{
+   left: 3.75rem;
+ }
+
+ @keyframes moveInBottom {
+  0% {
+      opacity: 0;
+      transform: translateY(30px);
+  }
+
+  100% {
+      opacity: 1;
+      transform: translateY(0px);
+  }
+}
+ /*TITULO E DIVISÃO*/
+ .title{
+   font-size: 1.5rem;
+
+ }
+ 
+ .divider-1{
+   margin-top: 9rem;
+ }
+
+ /*SOBRE NÓS*/
+
+ .img-respo{
+   width: 8rem;
+   height: 8rem;
+
+   margin-left: 9rem;
+
+   margin-top: -4rem;
+ }
+ 
+  .title2 {
+   margin-left: 7.5rem;
+ }
+  .p{
+    text-align: justify;
+  }
+ .button2{
+   margin-top: 3rem;
+ }
+
+ /*SERVIÇOS*/
+.title-service{
+  margin-left: 7.5rem;
+}
+.section .subtitle{
+  text-align: justify;
+}
+} 
+
+@media(max-width: 360px ) and (max-width: 389px){
+  /*HOME*/
+  #home .img2 .iconbig {
+    display: grid;
+    grid-template-columns: 2fr;
+  }
+
+  .iconbig, .img2{
+    display: none;
+  }
+
+  .img-responsividade{
+       display: flex;
+       height: 10rem;
+       width: 10rem;
+
+       margin-left: 8rem;
+       margin-top: -3rem;
+  }
+
+   .icon-responsividade{
+       display: flex;
+       height: 10.3rem;
+       width: 10.3rem;
+       margin-left: 8.5rem;
+       margin-top: -11.5rem;
+   }
+   .message{
+       font-size:30px;
+
+       width: 225px;
+       font-weight: 700;
+
+       margin-left: 5rem;
+       margin-top: -2rem;
+   }
+
+   .btn{
+       left: 3.75rem;
+     }
+  
+     @keyframes moveInBottom {
+      0% {
+          opacity: 0;
+          transform: translateY(30px);
+      }
+  
+      100% {
+          opacity: 1;
+          transform: translateY(0px);
+      }
+    }
+       /*TITULO E DIVISÃO*/
+       .title{
+           font-size: 1.5rem;
+   
+       }
+       .divider-1{
+           margin-top: 9rem;
+       }
+   
+       /*SOBRE NÓS*/
+   
+       .img-respo{
+           width: 8rem;
+           height: 8rem;
+   
+           margin-left: 9rem;
+   
+           margin-top: -4rem;
+       }
+       
+       .title2 {
+           margin-left: 7.5rem;
+       }
+       .p{
+           text-align: justify;
+       }
+       .button2{
+           margin-top: 3rem;
+       }
+   
+       /*SERVIÇOS*/
+       .title-service{
+       margin-left: 7.5rem;
+       }
+       .section .subtitle{
+       text-align: justify;
+       }
+}
